@@ -27,9 +27,9 @@ public class FormController {
 	}
 	
 	@RequestMapping(method = RequestMethod.POST, path = "/answers")
-	public ArrayList<String> getAnswers(@RequestBody ArrayList<ArrayList<Integer>> newList) {
+	public ArrayList<String> getAnswers(@RequestBody ArrayList<ArrayList<Integer>> answers) {
 		
-		return formService.getProfiles(newList);
+		return formService.getSchools(answers);
 		
 	}
 	

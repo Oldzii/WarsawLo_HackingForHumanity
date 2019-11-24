@@ -18,7 +18,7 @@ public class Mock {
 	private String name;
 	private String cityDistrict;
 	private boolean foreignExchanges;
-	private double recruitmentPointsLevel;
+	private int recruitmentPointsLevel; //change to int in order to obtain
 	private ArrayList<String> classProfiles;
 	private int numOfLanguages;
 	
