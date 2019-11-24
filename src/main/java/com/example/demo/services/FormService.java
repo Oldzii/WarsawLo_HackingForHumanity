@@ -44,6 +44,7 @@ public class FormService {
 		return schoolsNames;
 	}
 	
+	//ready to finish or modify the method, check for all questions connected with the profiles
 	public static ArrayList<String> getProfiles(ArrayList<Integer> firstQuestion){
 		Map<String, Integer> profiles = new HashMap<>();
 		ArrayList<String> outputString = new ArrayList<>();
